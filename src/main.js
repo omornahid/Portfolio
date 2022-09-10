@@ -16,6 +16,7 @@ import {
   faSchool,
   faAddressBook,
   faUser,
+  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faGoogle, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
@@ -29,7 +30,8 @@ library.add(
   faLinkedinIn,
   faSchool,
   faAddressBook,
-  faUser
+  faUser,
+  faDownload
 );
 
 import "./index.css";
