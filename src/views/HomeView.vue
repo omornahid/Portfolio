@@ -13,12 +13,13 @@
         from <span class="text-gradient">Bangladesh</span>.
       </p>
     </div>
+
     <div class="cta-btn w-fit my-8">
       <a
-        href="https://drive.google.com/file/d/1YV4cR9141UET2oP66MmI7EMfeIYNEDde/view?usp=sharing"
+        href="https://drive.google.com/file/d/115uQhbu4qsiAcXHSRu6Jevbu_8AtIVi0/view?usp=share_link"
         title="Download CV"
       >
-      <font-awesome-icon icon="fa-solid fa-download" class="mx-2" />
+        <font-awesome-icon icon="fa-solid fa-download" class="mx-2" />
         Download CV
       </a>
     </div>
