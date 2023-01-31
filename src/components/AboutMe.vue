@@ -20,7 +20,6 @@
           <li>Vue.js (v3)</li>
           <li>JavaScript</li>
           <li>HTML & CSS</li>
-          <li>Bootstrap 5</li>
           <li>Tailwind CSS</li>
           <li>Git & Github</li>
         </ul>
@@ -30,8 +29,7 @@
 
       <code>
         <ul class="text-gradient my-4 w-fit">
-          <li>Python 3</li>
-          <li>MySQL</li>
+          <li>Python & MySQL</li>
         </ul>
       </code>
     </p>

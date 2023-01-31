@@ -4,6 +4,24 @@ export const cardStore = defineStore({
   id: "portfolio",
   state: () => ({
     cards: {
+      quizapp: {
+        name: "Quiz App",
+        preview: "/assets/screenshots/quizapp.png",
+        description:
+          "It's a quiz app where people can play quizes and can see their score.",
+        prefix: "",
+        appLink: "https://quiz-app-omornahid.vercel.app/",
+        repo: "https://github.com/omornahid/Quiz-App",
+      },
+      noteapp: {
+        name: "Note App",
+        preview: "/assets/screenshots/noteapp.png",
+        description:
+          "One can add notes by clicking add button and each time a random color will generate as a background of that note card. The min char to add a note must be 10 char.",
+        prefix: "",
+        appLink: "https://note-app-omornahid.vercel.app/",
+        repo: "https://github.com/omornahid/noteApp",
+      },
       tictactoe: {
         name: "TicTacToe",
         preview: "assets/screenshots/tictactoe.png",
@@ -24,16 +42,6 @@ export const cardStore = defineStore({
         repo: "https://github.com/omornahid/Weather-App",
       },
 
-      movihuv: {
-        name: "MoviHub",
-        preview: "/assets/screenshots/moviehub.png",
-        description:
-          "It's a movie app where people can see the trending movie list and can search for a movie. Here I used React Hooks, Bootstrap and fetched API from TMDB",
-        appLink: "https://omornahid-movihub.netlify.app/",
-        prefix: "https://",
-        repo: "https://github.com/omornahid/MoviHub",
-      },
-
       otout: {
         name: "OTour",
         preview: "/assets/screenshots/otour.png",
@@ -42,15 +50,6 @@ export const cardStore = defineStore({
         prefix: "https://",
         appLink: "https://omornahi-learning-bootstrap.netlify.app/#destination",
         repo: "https://github.com/omornahid/Bootstrap-Prac",
-      },
-
-      todo: {
-        name: "To-Do List",
-        preview: "/assets/screenshots/todo.png",
-        description: "Build a simple to-do list using JavaScript ",
-        prefix: "https://",
-        appLink: "https://omornahid-to-do-list.netlify.app/",
-        repo: "https://github.com/omornahid/To-Do-List-using-javascript",
       },
     },
   }),

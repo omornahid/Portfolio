@@ -16,7 +16,7 @@
 
     <div class="cta-btn w-fit my-8">
       <a
-        href="https://drive.google.com/file/d/115uQhbu4qsiAcXHSRu6Jevbu_8AtIVi0/view?usp=share_link"
+        href="https://drive.google.com/file/d/1g3HF6gHbCve0EQhOODnwuftfY0QMABP2/view?usp=sharing"
         title="Download CV"
       >
         <font-awesome-icon icon="fa-solid fa-download" class="mx-2" />

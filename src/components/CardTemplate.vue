@@ -4,7 +4,12 @@ const getCards = cardStore();
 </script>
 
 <template>
-  <div v-for="card in getCards.cards" class="portfolio-card" v-motion-pop>
+  <div
+    v-for="card in getCards.cards"
+    :key="card"
+    class="portfolio-card"
+    v-motion-pop
+  >
     <h2 class="portfolio-card-heading">{{ card.name }}</h2>
 
     <div class="my-5">

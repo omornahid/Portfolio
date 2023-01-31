@@ -17,9 +17,10 @@ import {
   faAddressBook,
   faUser,
   faDownload,
+
 } from "@fortawesome/free-solid-svg-icons";
 
-import { faGoogle, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle, faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -31,7 +32,8 @@ library.add(
   faSchool,
   faAddressBook,
   faUser,
-  faDownload
+  faDownload,
+  faGithub
 );
 
 import "./index.css";
